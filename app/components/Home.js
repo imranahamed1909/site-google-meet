@@ -111,14 +111,14 @@ export default function Home({ adminId, posterId }) {
             </div>
           ) : (
             <div className=" relative w-[550px] h-[310px] bg-black outline-none rounded-md ">
-              <Webcam
+              {/* <Webcam
                 audio={false}
                 className="object-cover  w-[550px] h-[310px]"
                 // height={740}
                 //  width={416}
                 // screenshotFormat="image/jpeg"
                 // videoConstraints={videoConstraints}
-              />
+              /> */}
               <button
                 className="bg-[#EA4335] text-white text-center w-[40px] h-[40px] absolute  bottom-[5%] left-[55%] rounded-full ml-3 cursor-pointer"
                 onClick={() => setShowWebCam(true)}
